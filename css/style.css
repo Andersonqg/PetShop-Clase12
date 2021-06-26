@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header div.inicio_2 a{
+    text-decoration: none;
+    color: white;
+}
+
+header div.inicio_1{
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 60px 4px 90px;
+}
+
+
+header div.inicio_1 div.inicio_1_1 span{ 
+    margin-left: 20px;
+}
+
+header div.inicio_2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #F0A83E;
+    padding: 22px 40px 22px 58px;
+
+}
+
+.men_icon {
+    display: flex;
+    list-style: none;
+    color: white;
+}
+
+.men_icon li {
+    padding: 15px;
+    margin: 5px;
+}
+
+main section.banner img{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+main section.banner div.texto-banner{
+    width: 400px;
+    height: 200px;
+    position: relative;
+    top: 220px;
+    left: 950px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+}
+
+main section.banner div.texto-banner p{
+    width: 490px;
+    font-size: 40px;
+    background-color: white;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 8px;
+    margin: 15px;
+    
+}
+
+main section.banner div.texto-banner button{
+    background: #F0A83E;
+    width: 141px;
+    height: 49px;
+    color: white;
+    text-transform: uppercase;
+    border: 2px solid #F0A83E;
+    border-radius: 8px;
+    font-size: 16px;
+    margin: 15px;
+}
+
+main section.productos {
+    padding-top: 400px;
+}
+
+main section.productos div.productos_destacados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+main section.productos div.productos_destacados div p{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+ul.productos-navegacion {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    flex-direction: row;
+    margin: 20px;
+}
+
+ul.productos-navegacion a{
+    text-decoration: none;
+    padding: 13px;
+    color: #666666;
+    font-weight: 400;
+}
+
+div.productos_juguetes {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+div.productos_juguetes div {
+    margin: 20px;
+    width: 270px;
+    height: 320px;
+    background-color: #FBFAF6;
+}
+
+#color-naranja {
+    color: #F0A83E;
+}
+
+footer div.fin_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3C2313;
+    padding-left: 70px;
+    padding-right: 70px;
+    height: 300px;
+}
+
+div.informacion div{
+    display: flex;
+    margin: 20px;
+
+}
+
+div.informacion div img {
+    width: 70px;
+    height: 70px;
+}
+
+div#texto_information{ 
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -20px;
+}
+
+#titulo-informacion {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+#color-gris {
+    font-size: 10px;
+    color: #8A8787;
+}
+
+footer div.fin_2 {
+    background-color: black;
+    text-align:center;
+    margin: auto;
+    padding: 4px;
+    font-size: 10px;
+    color: white;
+}
+
+
+
+
+
+
+
+
